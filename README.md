@@ -6,10 +6,10 @@ Un bot Telegram in Python che **elimina automaticamente i messaggi contenenti pa
 
 ## Funzionalità
 
-- ✅ Elimina messaggi in tempo reale
-- ✅ Funziona nei gruppi Telegram
-- ✅ Personalizzabile: puoi aggiungere o rimuovere parole chiave
-- ✅ Può essere hostato gratuitamente su Render
+- Elimina messaggi in tempo reale
+- Funziona nei gruppi Telegram
+- Personalizzabile: puoi aggiungere o rimuovere parole chiave
+- Può essere hostato gratuitamente su Render
 
 ---
 
