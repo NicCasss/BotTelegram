@@ -30,17 +30,19 @@ def keep_alive():
     t.start()
 
 async def main():
-    keep_alive()
     token = os.environ['BOT_TOKEN']
     app_bot = ApplicationBuilder().token(token).build()
     app_bot.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, filter_messages))
+
     print("Bot avviato...")
-    await app_bot.run_polling()
+
+    await app_bot.initialize()
+    await app_bot.start()  # Invece di run_polling
 
 if __name__ == '__main__':
     import asyncio
 
-    keep_alive()  # Avvia il server Flask in thread separato
+    keep_alive()  # Avvia Flask in thread separato
 
     loop = asyncio.get_event_loop()
     loop.create_task(main())
