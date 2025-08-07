@@ -1,10 +1,10 @@
 # BotTelegram
 
-# 🧹 Telegram Cleaner Bot
+# Telegram Cleaner Bot
 
 Un bot Telegram in Python che **elimina automaticamente i messaggi contenenti parole chiave vietate** (es. "porno", "crypto", "sex", ecc.) nei gruppi dove è amministratore.
 
-## 📌 Funzionalità
+## Funzionalità
 
 - ✅ Elimina messaggi in tempo reale
 - ✅ Funziona nei gruppi Telegram
@@ -13,7 +13,7 @@ Un bot Telegram in Python che **elimina automaticamente i messaggi contenenti pa
 
 ---
 
-## 🚀 Come usarlo
+## Come usarlo
 
 ### 1. Crea un bot su Telegram
 
